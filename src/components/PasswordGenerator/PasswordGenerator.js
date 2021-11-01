@@ -64,7 +64,7 @@ function PasswordGenerator(props) {
                     }}
                 >
                     <Form.Item>
-                        <Input value={pw} placeholder="Password will be here..." disabled suffix={
+                        <Input value={pw} placeholder="Result..." disabled suffix={
                             <Tooltip placement="right" title={copyToClipboard ? "Copied" : "Copy"}>
                                 <CopyToClipboard text={pw} onCopy={() => setCopyToClipboard(true)}>
                                     <CopyOutlined />

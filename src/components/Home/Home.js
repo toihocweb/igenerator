@@ -12,6 +12,7 @@ import Sidebar from "../Sidebar/Sidebar";
 import {Redirect, Route, Switch} from "react-router-dom";
 import DockerGenerator from "../DockerGenerator/DockerGenerator";
 import PasswordGenerator from "../PasswordGenerator/PasswordGenerator";
+import RandomBytes from "../RandomBytes/RandomBytes";
 
 const { Header, Content, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -27,6 +28,7 @@ function Home(props) {
                         <Switch>
                             <Route path="/" component={PasswordGenerator} exact={true}/>
                             <Route path="/docker-generator" component={DockerGenerator}/>
+                            <Route path="/random-bytes" component={RandomBytes}/>
                             <Route path="*">
                                 <Redirect to="/" />
                             </Route>

@@ -32,15 +32,20 @@ function Sidebar() {
                         Password Generator
                     </NavLink>
                 </Menu.Item>
-                <Menu.Item key="2" icon={<DesktopOutlined />}>
+                <Menu.Item key="2" icon={<PieChartOutlined />}>
+                    <NavLink to="/random-bytes">
+                        Random Bytes
+                    </NavLink>
+                </Menu.Item>
+                <Menu.Item key="3" icon={<DesktopOutlined />}>
                     <NavLink to="/docker-generator">
                         Docker Generator
                     </NavLink>
                 </Menu.Item>
-                <Menu.Item key="9" icon={<FileOutlined />}>
+                <Menu.Item key="4" icon={<FileOutlined />}>
                     Kubernetes Generator
                 </Menu.Item>
-                <Menu.Item key="10" icon={<FileOutlined />}>
+                <Menu.Item key="5" icon={<FileOutlined />}>
                     Nginx Generator
                 </Menu.Item>
             </Menu>
