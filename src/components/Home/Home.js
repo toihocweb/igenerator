@@ -1,12 +1,6 @@
-import React, {useState} from 'react';
-import { Layout, Menu, Breadcrumb } from 'antd';
-import {
-    DesktopOutlined,
-    PieChartOutlined,
-    FileOutlined,
-    TeamOutlined,
-    UserOutlined,
-} from '@ant-design/icons';
+import React from 'react';
+import { Layout, Menu } from 'antd';
+
 import Footer from "../Footer/Footer";
 import Sidebar from "../Sidebar/Sidebar";
 import {Redirect, Route, Switch} from "react-router-dom";
@@ -14,8 +8,7 @@ import DockerGenerator from "../DockerGenerator/DockerGenerator";
 import PasswordGenerator from "../PasswordGenerator/PasswordGenerator";
 import RandomBytes from "../RandomBytes/RandomBytes";
 
-const { Header, Content, Sider } = Layout;
-const { SubMenu } = Menu;
+const { Header, Content } = Layout;
 
 function Home(props) {
     return (
