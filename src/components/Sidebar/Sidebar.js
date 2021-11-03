@@ -34,7 +34,7 @@ function Sidebar() {
                 </Menu.Item>
                 <Menu.Item key="3" icon={<DeploymentUnitOutlined />}>
                     <NavLink to="/docker-generator">
-                        Docker Generator
+                        Docker Generator (beta)
                     </NavLink>
                 </Menu.Item>
             </Menu>

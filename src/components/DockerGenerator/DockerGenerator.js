@@ -66,7 +66,7 @@ function DockerGenerator(props) {
                     {config.run ? `RUN ${config.run}` : ''}
                 </div>
                 <div className="content" style={{ marginBottom: 5 }}>
-                    {config.port ? `PORT ${config.port}` : ''}
+                    {config.port ? `EXPOSE ${config.port}` : ''}
                 </div>
                 <div className="content" style={{ marginBottom: 5 }}>
                     {config.cmd ? `CMD ${config.cmd}` : ''}
