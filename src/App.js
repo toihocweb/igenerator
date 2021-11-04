@@ -1,15 +1,20 @@
 import Sidebar from "./components/Sidebar/Sidebar";
-import {Switch, Route, BrowserRouter as Router, Redirect} from "react-router-dom"
+import {
+  Switch,
+  Route,
+  BrowserRouter as Router,
+  Redirect,
+} from "react-router-dom";
 import Home from "./components/Home/Home";
 import DockerGenerator from "./components/DockerGenerator/DockerGenerator";
 import PasswordGenerator from "./components/PasswordGenerator/PasswordGenerator";
 
-function App(){
+function App() {
   return (
     <div className="App">
-        <Router>
-            <Route path="/" component={Home}/>
-        </Router>
+      <Router>
+        <Route path="/" component={Home} />
+      </Router>
     </div>
   );
 }
