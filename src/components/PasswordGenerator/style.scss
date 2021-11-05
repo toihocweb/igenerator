@@ -5,4 +5,13 @@
       margin-left: auto;
     }
   }
+  @media (max-width: 575px){
+    .ant-col.ant-form-item-control {
+      flex: auto;
+    }
+    .ant-col.ant-form-item-label {
+      flex: auto;
+      padding: 0;
+    }
+  }
 }
