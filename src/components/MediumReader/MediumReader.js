@@ -20,7 +20,7 @@ function MediumReader(props) {
 
   const getLink = async () => {
     setLoading(true);
-    const url = "http://localhost:5000/medium";
+    const url = "http://45.76.178.238:5000/medium";
     try {
       const res = await axios.post(url, {
         link,
